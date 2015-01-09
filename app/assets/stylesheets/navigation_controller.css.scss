@@ -1,3 +1,40 @@
 // Place all the styles related to the navigationController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.homeBackGround {
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    padding: 8px 71px;
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #F0F0F0;
+}
