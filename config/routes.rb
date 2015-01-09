@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'navigation_controller/home'
+
+  get 'navigation_controller/wines'
+
+  get 'navigation_controller/location'
+
+  get 'navigation_controller/shop'
+
+  get 'navigation_controller/about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
