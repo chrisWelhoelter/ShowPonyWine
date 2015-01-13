@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+    
+  root 'navigation_controller#home'
+    
   get 'navigation_controller/home'
 
   get 'navigation_controller/wines'
