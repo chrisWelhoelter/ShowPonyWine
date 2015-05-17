@@ -2,27 +2,174 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-#home_nav {
-    height: 415px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    text-align: center;
+html {
 }
 
-#home_nav ul {
+/* home page */
+
+.homeContent {
+    width: 800px;
+    margin: 100px auto;
+}
+
+.div1 {
+    display: inline-block;
+    float: left;
+}
+
+#showPony {
+    margin-right: 30px;
+}
+
+#showPonyWineText {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#roseText {
+    margin-right: 8px;
+}
+
+#shopAndAboutText {
+    margin-top: 5px;
+}
+
+/* /home page */
+
+/* page */
+
+.page {
+    width: 926px;
+    margin: auto;
+}
+
+/* /page */
+
+/* navigation bar */
+
+#headerShowPony {
+}
+
+.navigationBar ul {
+    display: inline-block;
     list-style-type: none;
-    width: 960; margin: 0 auto; padding: 0;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
     overflow: hidden;
 }
 
-#home_nav li {
-    width: 192px;
+.navigationBar li {
+    float: left;
+}
+
+.navigationBar a {
+    display: block;
+    width: 120px;
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.long a {
+    width: 180px;
+}
+
+.navigationBar a:hover, a:active {
+    /* ! ! ! */
+}
+
+/* /navigation bar */
+
+/* side-bar(arnold projects) */
+
+.sideBar {
+    clear: both;
+    float: left;
+    width: 140px;
+    margin: 50px 20px 50px;
+    border-right-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.sideBar p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sideBar a {
+    text-align: center;
+}
+
+.sideBar img {
+    width: 140px;
+}
+
+/* /side-bar(arnold projects) */
+
+/* footer */
+
+.footer {
+    background-color: #DADADA;
+    margin: 40px 0;
+    padding: 40px;
+}
+
+#footer-line {
+    clear: both;
+    margin-top: 100px;
+}
+
+/* /footer */
+
+/* body */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* /body */
+
+/* wines */
+
+#winesBody {
+    /* figure out how to center everything! */
+}
+
+.wineListingHeader {
+    margin-top: 120px 40px auto;
+}
+
+.wineListingBody {
+    width: 500px;
+    margin-top: 20px auto;
     display: inline-block;
 }
 
-#home_nav a {
-    color: #000000;
-    text-decoration:none;
+#suzyHoldsWine {
+    width: 500px;
+    margin: 0px auto;
 }
+
+
+/* /wines */
+
+/* about */
+
+#arnoldChefCoat {
+    display: inline-block;
+    float: right;
+    width: 400px;
+    margin: 25px 50px;
+}
+
+/* /about */

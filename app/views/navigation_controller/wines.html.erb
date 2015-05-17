@@ -1,2 +1,72 @@
-<h1>NavigationController#wines</h1>
-<p>Find me in app/views/navigation_controller/wines.html.erb</p>
+<!-- page -->
+
+<div class="page">
+    
+    <!-- header -->
+    
+    <div class="div1">
+        <%= link_to image_tag("headerShowPony.png"), :controller => "navigation_controller", :action => "home" %>
+    </div>
+    
+    
+    <div class="navigationBar">
+        <ul>
+            <li><%= link_to "Home", :controller => "navigation_controller", :action => "home" %></li>
+            <li><%= link_to "Rosé", :controller => "navigation_controller", :action => "wines" %></li>
+            <li><%= link_to "About", :controller => "navigation_controller", :action => "about" %></li>
+            <li><%= link_to "Shop", :controller => "navigation_controller", :action => "shop" %></li>
+            <li class="long"><%= link_to "Locations", :controller => "navigation_controller", :action => "location"%></li>
+        </ul>
+    </div>
+    
+    <hr>
+    
+    <!-- /header -->
+    
+    <!-- side-bar(arnold projects) -->
+    
+    <div class="sideBar">
+        <p>Other Projects from Arnold Myint<p>
+        <a href="http://www.blvdnashville.com" target="_blank"><img src="http://assets.bizjournals.com/nashville/news/blvd_nashville_logo_NSH*500.jpg?v=1"></a>
+        <a href="http://www.pmnashville.com" target="_blank"><img src="http://www.pmnashville.com/images/pm_logo.gif"></a>
+        <a href="http://www.suzywongsnashville.com" target="_blank"><img src="http://www.nashvillescene.com/imager/preview-to-a-kill-suzy-wongs-house-of-yum/b/original/1481071/1a37/SuzyWongslogo.jpg"></a>
+    </div>
+    
+    <!-- /side-bar(arnold projects) -->
+
+    <body id="winesBody">
+    
+    <h1 class="wineListingHeader">Show Pony Rosé</h1>
+
+    <img src="http://nebula.wsimg.com/2bbd5c1f0035e7a2d473d7c8ba7962b7?AccessKeyId=FAE2ADC6D14BAEAC9655&disposition=0&alloworigin=1" id="suzyHoldsWine">
+    
+    <p class="wineListingBody">
+        Our Rosé is a blend of Grenache and Mourvèdre grapes. The first impression is soft, a good mouth feel and a delicate nose. On second taste sweet peaches and honey dew melon notes are present. The wine is rich with a touch of fruit. It pairs with soft ripening cheese and baguettes perfectly.
+        </p>
+
+    </body>
+    
+</div>
+
+<!-- /page -->
+
+<!-- footer -->
+
+<hr id="footer-line">
+
+<div class="footer">
+    
+    <div class="page">
+        
+        <body>
+            
+            <p>Copyright 2015 Show Pony Wine. All rights reserved. Please contact us at: info@arnoldmyint.com. Concept by Arnold Myint. Chef de Cuisine Francesco Vito. Design by Chris Welhoelter. Absolutely no menu modifications.</p>
+            
+        </body>
+        
+    </div>
+    
+</div>
+
+<!-- /footer -->
+

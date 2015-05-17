@@ -1,11 +1,22 @@
-<div id= "home_nav">
-    
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#wines">Wines</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#locations">Locations</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
-    
+<div class="homeContent">
+
+<div class="div1" id="showPony">
+    <%= link_to image_tag("showPonyTransparent.png"), :controller => "navigation_controller", :action => "home" %>
+</div>
+<div class="div1">
+    <div id="showPonyWineText">
+        <%= link_to image_tag("showPonyWineText.png"), :controller => "navigation_controller", :action => "home" %>
+    </div>
+    <div>
+        <div class="div1" id="roseText">
+            <%= link_to image_tag("roseText.png"), :controller => "navigation_controller", :action => "wines" %>
+        </div>
+        <div class="div1" id="shopAndAboutText">
+            <div><%= link_to image_tag("shopText.png"), :controller => "navigation_controller", :action => "shop" %></div>
+            <div><%= link_to image_tag("aboutText.png"), :controller => "navigation_controller", :action => "about" %></div>
+        </div>
+    </div>
+    <div><%= link_to image_tag("locationsText.png"), :controller => "navigation_controller", :action => "location" %></div>
+</div>
+
 </div>

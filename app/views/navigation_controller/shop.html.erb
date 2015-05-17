@@ -1,2 +1,64 @@
-<h1>NavigationController#shop</h1>
-<p>Find me in app/views/navigation_controller/shop.html.erb</p>
+<!-- page -->
+
+<div class="page">
+    
+    <!-- header -->
+    
+    <div class="div1">
+        <%= link_to image_tag("headerShowPony.png"), :controller => "navigation_controller", :action => "home" %>
+    </div>
+    
+    
+    <div class="navigationBar">
+        <ul>
+            <li><%= link_to "Home", :controller => "navigation_controller", :action => "home" %></li>
+            <li><%= link_to "Rosé", :controller => "navigation_controller", :action => "wines" %></li>
+            <li><%= link_to "About", :controller => "navigation_controller", :action => "about" %></li>
+            <li><%= link_to "Shop", :controller => "navigation_controller", :action => "shop" %></li>
+            <li class="long"><%= link_to "Locations", :controller => "navigation_controller", :action => "location"%></li>
+        </ul>
+    </div>
+    
+    <hr>
+    
+    <!-- /header -->
+    
+    <!-- side-bar(arnold projects) -->
+    
+    <div class="sideBar">
+        <p>Other Projects from Arnold Myint<p>
+        <a href="http://www.blvdnashville.com" target="_blank"><img src="http://assets.bizjournals.com/nashville/news/blvd_nashville_logo_NSH*500.jpg?v=1"></a>
+        <a href="http://www.pmnashville.com" target="_blank"><img src="http://www.pmnashville.com/images/pm_logo.gif"></a>
+        <a href="http://www.suzywongsnashville.com" target="_blank"><img src="http://www.nashvillescene.com/imager/preview-to-a-kill-suzy-wongs-house-of-yum/b/original/1481071/1a37/SuzyWongslogo.jpg"></a>
+    </div>
+    
+<!-- /side-bar(arnold projects) -->
+
+</div>
+
+<!-- /page -->
+
+</div>
+
+<!-- /page -->
+
+<!-- footer -->
+
+<hr id="footer-line">
+
+<div class="footer">
+    
+    <div class="page">
+        
+        <body>
+            
+            <p>Copyright 2015 Show Pony Wine. All rights reserved. Please contact us at: info@arnoldmyint.com. Concept by Arnold Myint. Chef de Cuisine Francesco Vito. Design by Chris Welhoelter. Absolutely no menu modifications.</p>
+            
+        </body>
+        
+    </div>
+    
+</div>
+
+<!-- /footer -->
+
