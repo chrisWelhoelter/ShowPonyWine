@@ -26,25 +26,23 @@
     <!-- side-bar(arnold projects) -->
     
     <div class="sideBar">
-        <p>Other Projects from Arnold Myint<p>
-        <a href="http://www.blvdnashville.com" target="_blank"><img src="http://assets.bizjournals.com/nashville/news/blvd_nashville_logo_NSH*500.jpg?v=1"></a>
-        <a href="http://www.pmnashville.com" target="_blank"><img src="http://www.pmnashville.com/images/pm_logo.gif"></a>
-        <a href="http://www.suzywongsnashville.com" target="_blank"><img src="http://www.nashvillescene.com/imager/preview-to-a-kill-suzy-wongs-house-of-yum/b/original/1481071/1a37/SuzyWongslogo.jpg"></a>
+        <p>Other Projects from<br>Arnold Myint<p>
+        <%= link_to image_tag("blvd_logo.png"), "http://blvdnashville.com" %>
+        <%= link_to image_tag("pm_logo.png"), "http://www.pmnashville.com" %>
+        <%= link_to image_tag("suzy_logo.png"), "http://www.suzywongsnashville.com/index.php/suzy-wong-s" %>
     </div>
-    
+
     <!-- /side-bar(arnold projects) -->
 
-    <body id="winesBody">
-    
-    <h1 class="wineListingHeader">Show Pony Rosé</h1>
+    <div id="winesBody">
 
-    <img src="http://nebula.wsimg.com/2bbd5c1f0035e7a2d473d7c8ba7962b7?AccessKeyId=FAE2ADC6D14BAEAC9655&disposition=0&alloworigin=1" id="suzyHoldsWine">
-    
-    <p class="wineListingBody">
+    <%= image_tag("showPonyBoxed.png", :id => "showPonyBoxed") %>
+
+    <p id="wineListingBody">
         Our Rosé is a blend of Grenache and Mourvèdre grapes. The first impression is soft, a good mouth feel and a delicate nose. On second taste sweet peaches and honey dew melon notes are present. The wine is rich with a touch of fruit. It pairs with soft ripening cheese and baguettes perfectly.
-        </p>
+    </p>
 
-    </body>
+    </div>
     
 </div>
 

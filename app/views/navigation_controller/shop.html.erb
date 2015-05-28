@@ -26,17 +26,27 @@
     <!-- side-bar(arnold projects) -->
     
     <div class="sideBar">
-        <p>Other Projects from Arnold Myint<p>
-        <a href="http://www.blvdnashville.com" target="_blank"><img src="http://assets.bizjournals.com/nashville/news/blvd_nashville_logo_NSH*500.jpg?v=1"></a>
-        <a href="http://www.pmnashville.com" target="_blank"><img src="http://www.pmnashville.com/images/pm_logo.gif"></a>
-        <a href="http://www.suzywongsnashville.com" target="_blank"><img src="http://www.nashvillescene.com/imager/preview-to-a-kill-suzy-wongs-house-of-yum/b/original/1481071/1a37/SuzyWongslogo.jpg"></a>
+        <p>Other Projects from<br>Arnold Myint<p>
+        <%= link_to image_tag("blvd_logo.png"), "http://blvdnashville.com" %>
+        <%= link_to image_tag("pm_logo.png"), "http://www.pmnashville.com" %>
+        <%= link_to image_tag("suzy_logo.png"), "http://www.suzywongsnashville.com/index.php/suzy-wong-s" %>
+
     </div>
-    
+
 <!-- /side-bar(arnold projects) -->
 
 </div>
 
 <!-- /page -->
+
+    <div class="shopItem">
+        <%= image_tag("showPonyBoxed.png", :id => "showPonyThumbnail") %>
+        <p> Show Pony Rose<br>(1 case, 6 bottles: $92) </p>
+        <form>
+            Cases: <input type="int">
+            <input type="submit" value="Add to cart!">
+        </form>
+    </div>
 
 </div>
 
