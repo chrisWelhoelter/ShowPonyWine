@@ -197,10 +197,14 @@ form {
     margin-left: 400px;
 }
 
-.shopItem p {
+.shopItem a {
     vertical-align: middle;
-    margin-left: 40px;
+    margin-left: 120px;
     display: inline-block;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.25em;
 }
 
 .shopItem form {
